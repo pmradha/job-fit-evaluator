@@ -1,7 +1,7 @@
 # 02_company_analysis
 
 Used in: Job Fit Evaluator, Activepieces, step `build_company_call` (variable `SYSTEM`)
-Model: gemini-3.8-flash
+Model: gemini-3.1-pro-preview
 
 ---
 
