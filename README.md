@@ -2,8 +2,6 @@
 
 An AI-powered evaluation platform that analyzes candidate resumes against specific Job Descriptions (JDs), deep-dives into employer context via real-time web intelligence, and produces actionable fit scores and tailored CV rewrites.
 
-![Job Fit Evaluator Preview](https://raw.githubusercontent.com/pmradha/job-fit-evaluator/main/public/favicon.ico) <!-- Replace with preview screenshot when available -->
-
 ---
 
 ## 🌟 Key Features
@@ -16,20 +14,21 @@ An AI-powered evaluation platform that analyzes candidate resumes against specif
 
 ---
 
-## 🏗️ Architecture & Tech Stack
+## 📚 Documentation
 
-```text
-Browser (React 19 / TanStack Start)
-   │  • 4-step intake (Resume, JD, Company, Review)
-   │  • Client-side document parsing (pdf.js / mammoth)
-   ▼
-Lovable Cloud Server Functions
-   ├── 1. Validation & sanitization
-   ├── 2. Tavily Search API (Tech stack, business model, actors, user flows)
-   ├── 3. Lovable AI Gateway (Scoring, gap analysis, bullet rewrites)
-   └── 4. PostgreSQL Database (Ephemeral state & 24h TTL)
-   ▼
-Interactive Results Dashboard
-   • Match score gauges & must-have vs. nice-to-have skill breakdown
-   • Company intelligence briefing cards
-   • Tailored CV rewrites & interview talking points
+- [Product Requirements Document (PRD)](./docs/PRD-Job_Fit_Evaluator_v2.md)
+- [Technical Implementation Guide](./docs/Implementation-Job_Fit_Evaluator_v2.md)
+- [AI Prompts & JSON Schemas](./docs/prompts.md)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Bun](https://bun.sh/) (or Node.js 18+)
+- Tavily API Key ([Get one here](https://tavily.com))
+
+### Setup & Run
+1. Clone the repository and install dependencies:
+   ```bash
+   bun install
