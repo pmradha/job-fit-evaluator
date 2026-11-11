@@ -1,6 +1,7 @@
 # Job Fit Evaluator 🎯
 
 An AI-powered evaluation platform that analyzes candidate resumes against specific Job Descriptions (JDs), deep-dives into employer context via real-time web intelligence, and produces actionable fit scores and tailored CV rewrites.
+
 **Demo Video:**
 https://www.dropbox.com/scl/fi/l2x44qp1ixcurbz240etq/Final-Demo-Job-Fit-Evaluator.mp4?rlkey=y8odmslovwvrqkprukgj3bouw&st=seg2a4ny&dl=0
 
