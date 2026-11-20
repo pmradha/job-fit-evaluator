@@ -1,3 +1,12 @@
+## Copyright & Usage
+
+Copyright © 2026 Radha.
+
+All rights reserved. This repository is publicly available for viewing
+and evaluation purposes only. No permission is granted to copy, reuse,
+modify, distribute, or commercially use this code without prior written
+permission from the copyright owner.
+
 # Job Fit Evaluator 🎯
 
 An AI-powered evaluation platform that analyzes candidate resumes against specific Job Descriptions (JDs), deep-dives into employer context via real-time web intelligence, and produces actionable fit scores and tailored CV rewrites.
